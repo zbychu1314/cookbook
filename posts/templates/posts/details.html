@@ -1,0 +1,20 @@
+
+    <!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>Title</title>
+    </head>
+    <body>
+    <h1>Posts Details</h1>
+    <ol>    
+    {% for pos in posts %}
+        <li>{{pos.title }} </li>
+        <li>{{pos.description}}</li>
+        <li>{{pos.category}}</li>
+        <li>{{pos.author}}</li>
+    {% endfor %}
+    </ol>
+    
+    </body>
+    </html>

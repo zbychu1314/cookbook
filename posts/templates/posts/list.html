@@ -7,8 +7,8 @@
 <body>
 
 <ol>
-{% for rec in recipes %}
-    <li>{{ rec.title }}</li>
+{% for p in posts %}
+    <li>{{ p.title }} {{p.description}}{{p.category}}</li>
 {% endfor %}
 </ol>
 
